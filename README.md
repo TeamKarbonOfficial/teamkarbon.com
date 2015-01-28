@@ -1,2 +1,2 @@
 # teamkarbon.com
-Team Karbon Official Website
+Just if you want to look at it. (Still hate HTML LOL)
