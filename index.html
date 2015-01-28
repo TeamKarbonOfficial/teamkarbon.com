@@ -11,7 +11,7 @@
 
     <title>TeamKarbon Official Website</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS (Local) -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -20,6 +20,22 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+<!-- Latest Stuff -->
+    
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<!-- Ends here :P -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -80,8 +96,66 @@
               <br>
               <p>Duo Run is a color coded game where the user must be able to mutitask using both of their hand to control two balls which must avoid obsticles with the same color.</p>
               <br>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#Modal_duorun">View details &raquo;</a></p>
             </div><!--/.col-xs-6.col-lg-4-->
+
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="Modal_duorun" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <div class="media">
+                        <div class="media-left media-middle">
+                          <a href="#">
+                            <img class="media-object" src="images/ic_duorun.png" alt="...">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h2>Duo Run</h2>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  <div class="modal-body">
+
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                        <div class="media">
+                          <div class="media-left media-middle">
+                            <a href="#">
+                              <img class="media-object" src="images/men_at_work.png" alt="...">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h2>Progress to Completion</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel-footer">
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                            70%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p> More updates will be coming soon! </p>
+
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://github.com/TeamKarbonOfficial/Duo_Run">
+                      <button type="button" class="btn btn-warning">Fork me on GitHub</button>
+                    </a>
+                    <a href="#">
+                      <button type="button" class="btn btn-success disabled">Get it on Google play</button>
+                    </a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             
 <!-- ToS Wiki -->
             <div class="col-xs-6 col-lg-4">
@@ -208,6 +282,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
