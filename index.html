@@ -173,8 +173,128 @@
               <p>Handy Wiki for the game Town of Salem on the Android Platform. It contains every bit of information you'll need to know for each indiviual roles. </p>
               <br>
               <br>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#Modal_toswiki">View details &raquo;</a></p>
             </div><!--/.col-xs-6.col-lg-4-->
+
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="Modal_toswiki" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <div class="media">
+                        <div class="media-left media-middle">
+                          <a href="#">
+                            <img class="media-object" src="images/ic_tos.png" alt="...">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h2>Town of Salem Wiki</h2>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  <div class="modal-body">
+
+                    <div role="tabpanel">
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#des" aria-controls="des" role="tab" data-toggle="tab">Description</a></li>
+                        <li role="presentation"><a href="#media" aria-controls="media" role="tab" data-toggle="tab">Media</a></li>
+                        <li role="presentation"><a href="#changelog" aria-controls="changelog" role="tab" data-toggle="tab">Changelog</a></li>
+                      </ul>
+
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="des">
+                          <br>
+                          <p>What happens if you're a Serial Killer, and you claim to be a doctor! And now the Mayor is asking for a doctor's ability. In a matter of seconds, you're going to be Lynched! D:</p>
+
+                          <p>Fear no more! This Town of Salem Wiki application is developed for you to quickly find all the information you need.</p>
+
+                          <p>New? So what is Town of Salem?<br>
+                          "Town of Salem is a browser-based game that challenges players on their ability to convincingly lie as well as detect when other players are lying. The game ranges from 7 to 15 players. These players are randomly divided into alignments - Town, Mafia, Serial Killers, Arsonists and Neutrals. If you are a Town member (the good guys) you must track down the Mafia and other villains before they kill you. The catch? You don't know who is a Town member and who is a villain. If you are an evil role, such as a Serial Killer, you secretly murder town members in the veil of night and try to avoid getting caught."<br>
+                          - www.blankmediagames.com</p>
+
+                          <p>Currently the application can:<br>
+                          1) View all Roles<br>
+                          - Includes 3 separate buttons "Town/Mafia/Neutral" for quick access<br>
+                          - Each role page includes the role alignment, abilities, goal(s), note(s), investigation results &amp; win  conditions!</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="media">
+                          <br>
+                          <h3>Screenshots</h3>
+                          <div class="row">
+                            <div class="col-md-3"><img src="images/tos/ss1.png" class="img-responsive" alt="..."></div>
+                            <div class="col-md-3"><img src="images/tos/ss2.png" class="img-responsive" alt="..."></div>
+                            <div class="col-md-3"><img src="images/tos/ss3.png" class="img-responsive" alt="..."></div>
+                            <div class="col-md-3"><img src="images/tos/ss4.png" class="img-responsive" alt="..."></div>
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="changelog">
+                          <br>
+                          <table class="table">
+                              <tr>
+                                <th>Version</th>
+                                <th>Name</th>
+                                <th>Date</th>
+                                <th>Change</th>
+                              </tr>
+                              <tr class="info">
+                                <td>1.1.0</td>
+                                <td>ToS Steam Update</td>
+                                <td>19/12/2014</td>
+                                <td>
+                                  <ul>
+                                    <li>Removed KickStarter Button</li>
+                                    <li>Added Werewolf</li>
+                                    <li>Added Ads</li>
+                                    <li>Corrected Typos (Witches)</li>
+                                  </ul>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>1.0.1</td>
+                                <td>Small Bug Fixes</td>
+                                <td>14/10/2014</td>
+                                <td>
+                                  <p>Fixed transporter, vigilante and mafioso investigation details.</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>1.0.0</td>
+                                <td>Initial Release</td>
+                                <td>14/10/2014</td>
+                                <td>
+                                  <p>Initial Release</p>
+                                </td>
+                              </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-4"><h3>Downloads:</h3><h5>5,000-10,000</h5></div>
+                      <div class="col-md-4"><h3>Rating:</h3><h5>4.2/10.0</h5></div>
+                      <div class="col-md-4"><h3>Current Version:</h3><h5>1.1.0</h5></div>
+                    </div>
+
+                    <small>Page Last Updated: 29/1/2015</small>
+
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://github.com/TeamKarbonOfficial/TownOfSalem">
+                      <button type="button" class="btn btn-warning">Fork me on GitHub</button>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.teamkarbon.android.townofsalem">
+                      <button type="button" class="btn btn-success">Get it on Google play</button>
+                    </a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 <!-- Binary Extras -->
             <div class="col-xs-6 col-lg-4">
